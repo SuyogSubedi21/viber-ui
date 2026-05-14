@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  background: #dcdce4;
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  width: 1000px;
+  height: 650px;
+  margin: 35px auto;
+  display: flex;
+  background: white;
+  border: 1px solid #cfcfd6;
+}
+
+.sidebar {
+  width: 360px;
+  background: #f5f5f7;
+  border-right: 1px solid #ddd;
+  padding: 15px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.title img {
+  width: 32px;
+}
+
+.sidebar h2 {
+  margin: 5px 0 15px;
+  color: #665cac;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #e8e8ee;
+  color: #777;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 12px;
+}
+
+.search img {
+  width: 17px;
+}
+
+.chat {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.active {
+  background: #474d55;
+  color: white;
+}
+
+.person-sign {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+}
+
+.person-sign img {
+  width: 28px;
+}
+
+.chat-text {
+  width: 260px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.top span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.chat p {
+  margin: 5px 0 0;
+  color: #777;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.active p {
+  color: #e6e6e6;
+}
+
+.chat-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header h2,
+.header p {
+  margin: 0;
+}
+
+.header p {
+  color: #777;
+  margin-top: 4px;
+}
+
+.header-icons img {
+  width: 24px;
+  margin-left: 14px;
+}
+
+.messages {
+  flex: 1;
+  padding: 20px;
+  background: #f0edf7;
+}
+
+.msg {
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.left {
+  background: white;
+}
+
+.right {
+  background: #7667d9;
+  color: white;
+  margin-left: auto;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.input-box button {
+  background: #665cac;
+  color: white;
+  border: 0;
+  width: 45px;
+  border-radius: 6px;
+}
+
+.input-box button img {
+  width: 18px;
+  margin-top: 3px;
+}
